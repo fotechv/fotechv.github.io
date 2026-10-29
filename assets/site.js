@@ -14,3 +14,18 @@ if (filters) {
     document.querySelector('#filter-status').textContent = `Hiển thị ${projects.filter(project => !project.hidden).length} dự án.`;
   });
 }
+
+// Native disclosure works without JavaScript; add predictable dismissal behavior.
+const productMenu = document.querySelector('.products-menu');
+if (productMenu) {
+  document.addEventListener('click', (event) => {
+    if (!productMenu.contains(event.target)) productMenu.open = false;
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && productMenu.open) {
+      productMenu.open = false;
+      productMenu.querySelector('summary').focus();
+    }
+  });
+  productMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { productMenu.open = false; }));
+}

@@ -39,3 +39,7 @@ Thương hiệu tạm dùng FOTECHV theo repository hiện có. Có thể bổ s
 - English Platform: `D:/MyProjects/English_Platform/README.md`, `AGENTS.md`, `package.json`.
 - Auto Video Platform: `D:/MyProjects/AI_Video_Platform/auto-video-platform/README.md`, `video-dashboard/package.json`, `video-orchestration/go.mod`.
 - TablePro: `D:/MyProjects/table_pro/README.md`, `TablePro-Qt/CMakeLists.txt`, `TablePro-Ui-Kit/README.md`.
+
+## Cập nhật 2026-10-29
+
+Trang chủ chuyển sang giới thiệu năng lực theo thương hiệu FOTECHV, không dùng hồ sơ cá nhân. Nội dung gồm giải pháp, sáu nhóm chuyên môn, kinh nghiệm theo lĩnh vực, quy trình hợp tác và dẫn chứng sản phẩm. Chuyên môn được đối chiếu với CV do chủ website cung cấp và tài liệu dự án; không gán khách hàng của đơn vị từng công tác thành khách hàng FOTECHV. Danh sách sản phẩm chuyển sang /projects/, giữ nguyên URL bài chi tiết. Menu con dùng disclosure HTML, hỗ trợ bàn phím và Escape. Email liên hệ được cấu hình từ CV; CV không được sao chép vào website.

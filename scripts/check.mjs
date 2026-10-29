@@ -13,7 +13,7 @@ async function files(dir) {
 }
 const pages = await files(root);
 const articles = (await readdir(new URL('../content/projects/', import.meta.url))).filter(name => name.endsWith('.md'));
-assert.equal(pages.length, articles.length + 2, 'Expected homepage, all project articles and 404');
+assert.equal(pages.length, articles.length + 3, 'Expected homepage, project index, all project articles and 404');
 let checked = 0;
 for (const file of pages) {
   const html = await readFile(file, 'utf8');

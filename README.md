@@ -1,6 +1,6 @@
-# FOTECHV — Portfolio
+# FOTECHV — Giải pháp công nghệ
 
-Website tĩnh bằng HTML/CSS/JavaScript, với các bài giới thiệu dự án được tạo từ Markdown. Build bằng Node.js, không cần cài dependency.
+Website giới thiệu năng lực FOTECHV bằng HTML/CSS/JavaScript. Trang chủ tập trung vào giải pháp, chuyên môn, lĩnh vực và quy trình hợp tác; danh sách sản phẩm nằm tại `/projects/`, truy cập từ menu con Sản phẩm. Các bài giới thiệu dự án được tạo từ Markdown. Build bằng Node.js, không cần cài dependency.
 
 ## Xem trên máy
 
